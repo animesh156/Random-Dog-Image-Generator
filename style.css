@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(245, 242, 105);
+}
+
+#dogImageDiv, #btn{
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+button:hover{
+    background-color: rgb(0, 255, 255);
+    font-size: medium;
+}
