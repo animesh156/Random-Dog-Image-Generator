@@ -8,6 +8,6 @@ let loadDogImage=()=>{
     .then(response=>response.json())
     .then(json=>{
 
-        dogImageDiv.innerHTML=`<img src='${json.message}' alt="" height=400 width 400>`
+        dogImageDiv.innerHTML=`<img src='${json.message}' alt="" height=300 width 200>`
     });
 }
